@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MagicNBLib_Example' do
+  pod 'MagicNBLib', :path => '../'
+
+  target 'MagicNBLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
